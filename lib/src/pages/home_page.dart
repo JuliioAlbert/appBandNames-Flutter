@@ -62,7 +62,6 @@ class _HomePageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
-            color: Colors.red,
             child: _showGrap()),
           Expanded( 
             child: ListView.builder(
